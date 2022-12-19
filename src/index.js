@@ -1,1 +1,2 @@
-alert("Hey this is working!!!!")
+
+import './style.css';
