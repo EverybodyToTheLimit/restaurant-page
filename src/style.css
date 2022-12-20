@@ -117,8 +117,9 @@ button {
 
 .section-two {
     padding: 5px 16% 5% 16%;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    justify-content: space-between;
     flex-grow: 1;
 }
 .section-two-text {
@@ -128,11 +129,7 @@ button {
     font-weight: 800;
     color: #1F2937;
 }
-.section-two-images {
-    display:flex;
-    justify-content: center;
-    gap: 30px;
-}
+
 
 .section {
     display:flex;
