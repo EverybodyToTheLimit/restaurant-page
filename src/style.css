@@ -4,7 +4,6 @@ body {
 .content {
     display: flex;
     flex-direction: column;
-    margin: none;
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -15,7 +14,7 @@ body {
     display: flex;
 }
 .header-links {
-    font-size: 18px;
+    font-size: 25px;
     color: #e5e7eb;
     align-self: center;
 }
