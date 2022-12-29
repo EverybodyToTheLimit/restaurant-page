@@ -115,8 +115,24 @@ button {
 
 /* Section two styles */
 
-.section-two {
+.section-two-contact {
     padding: 5px 16% 5% 16%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 5px;
+    
+}
+
+.map-image {
+    min-width: 150px;
+    max-width: 500px;
+    align-self: center;
+}
+
+.section-two-menu {
+    padding: 5px 16% 5px 16%;
     display: grid;
     grid-template-columns: 4fr 1fr;
     justify-content: space-between;
@@ -125,6 +141,7 @@ button {
 .section-two-text {
     display:flex;
     justify-content: center;
+    align-self: center;
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
@@ -169,5 +186,5 @@ button {
     justify-content: center;
     color:#e5e7eb;
     background-color: #1F2937;
-    padding: 30px 60px;
+    padding: 10px 30px;
 }
