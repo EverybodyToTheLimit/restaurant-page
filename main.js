@@ -28,7 +28,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\n    margin:0;\n}\n.content {\n    display: flex;\n    flex-direction: column;\n    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;\n}\n\n/* Header style */\n\n.header {\n    color: #F9FAF8;\n    display: flex;\n}\n.header-links {\n    font-size: 25px;\n    color: #e5e7eb;\n    align-self: center;\n}\n.header-logo {\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-size: cover;\n    resize: both;\n    min-height: 130px;\n    min-width: 130px;\n}\n\n/* Common styles */\na {\n    text-decoration: none;\n    color: inherit;\n    padding-left: 20px;\n}\n\n.header {\n    display:flex;\n    background-color: #1F2937;\n    justify-content: space-between;\n    align-items:stretch;\n    padding: 5px 16% 5% 16%;\n}\n\nh2 {\n    margin: 5px;\n}\np {\n    margin: 5px;\n}\nh5 {\n    margin:0;\n}\n\n\n/* Section one styles */\n\n.section-one {\n    background-color: #1F2937;\n    padding: 5px 16% 5% 16%;\n    justify-content: space-between;\n    display: grid;\n    justify-items: center;\n    grid-template-columns: 2fr 1fr;\n    grid-auto-flow: column;\n    color: #F9FAF8;\n}\n\n.section-one-image {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    align-self: center;\n    margin-left: 30px;\n    width:50%;\n    flex: 1;\n    min-height: 130px;\n    min-width: 130px;\n    height: 100%;\n    width: 100%;\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n    background-size:contain;\n    background-repeat: no-repeat;\n    \n}\n\n.section-one-text {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: flex-end;\n    align-self: center;\n    font-size: 48px;\n    font-weight: 800;\n    color: #F9FAF8;\n    margin-right: 30px;\n    margin-top: 0;\n    flex-shrink: 1;\n}\n.section-one-no-emphasis {\n    font-size: 18px;\n    color: #e5e7eb;\n    font-weight: normal;\n}\n\nbutton {\n    background-color: #3882f6;\n    border: none;\n    font-weight: 800;\n    color: #e5e7eb;\n    font-size: 18px;\n    border-radius: 10px;\n    padding: 10px 30px;\n}\n\n/* Section two styles */\n\n.section-two-contact {\n    padding: 5px 16% 5% 16%;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    flex-grow: 1;\n    gap: 5px;\n    \n}\n\n.map-image {\n    min-width: 150px;\n    max-width: 500px;\n    align-self: center;\n}\n\n.section-two-menu {\n    padding: 5px 16% 5px 16%;\n    display: grid;\n    grid-template-columns: 4fr 1fr;\n    justify-content: space-between;\n    flex-grow: 1;\n}\n.section-two-text {\n    display:flex;\n    justify-content: center;\n    align-self: center;\n    font-size: 36px;\n    font-weight: 800;\n    color: #1F2937;\n}\n\n\n.section {\n    display:flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    flex-wrap: wrap;\n}\n.section .image {\n    width: 150px;\n    height: 150px;\n    border-color: #3882f6;\n    border-radius: 10px;\n    border-style: solid;\n}\n.section p {\n    text-align: center;\n    width:150px;\n    color: gray;\n}\n\n\n\n.smaller-text {\n    font-size: 12px;\n}\n\n\n/* footer */\n\n.footer {\n    bottom: 0;\n    right: 0;\n    left: 0;\n    position: absolute;\n    display: flex;\n    justify-content: center;\n    color:#e5e7eb;\n    background-color: #1F2937;\n    padding: 10px 30px;\n}", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;IACI,QAAQ;AACZ;AACA;IACI,aAAa;IACb,sBAAsB;IACtB,wDAAwD;AAC5D;;AAEA,iBAAiB;;AAEjB;IACI,cAAc;IACd,aAAa;AACjB;AACA;IACI,eAAe;IACf,cAAc;IACd,kBAAkB;AACtB;AACA;IACI,yDAA2C;IAC3C,sBAAsB;IACtB,YAAY;IACZ,iBAAiB;IACjB,gBAAgB;AACpB;;AAEA,kBAAkB;AAClB;IACI,qBAAqB;IACrB,cAAc;IACd,kBAAkB;AACtB;;AAEA;IACI,YAAY;IACZ,yBAAyB;IACzB,8BAA8B;IAC9B,mBAAmB;IACnB,uBAAuB;AAC3B;;AAEA;IACI,WAAW;AACf;AACA;IACI,WAAW;AACf;AACA;IACI,QAAQ;AACZ;;;AAGA,uBAAuB;;AAEvB;IACI,yBAAyB;IACzB,uBAAuB;IACvB,8BAA8B;IAC9B,aAAa;IACb,qBAAqB;IACrB,8BAA8B;IAC9B,sBAAsB;IACtB,cAAc;AAClB;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,mBAAmB;IACnB,kBAAkB;IAClB,iBAAiB;IACjB,SAAS;IACT,OAAO;IACP,iBAAiB;IACjB,gBAAgB;IAChB,YAAY;IACZ,WAAW;IACX,yDAA4C;IAC5C,uBAAuB;IACvB,4BAA4B;;AAEhC;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,yBAAyB;IACzB,kBAAkB;IAClB,eAAe;IACf,gBAAgB;IAChB,cAAc;IACd,kBAAkB;IAClB,aAAa;IACb,cAAc;AAClB;AACA;IACI,eAAe;IACf,cAAc;IACd,mBAAmB;AACvB;;AAEA;IACI,yBAAyB;IACzB,YAAY;IACZ,gBAAgB;IAChB,cAAc;IACd,eAAe;IACf,mBAAmB;IACnB,kBAAkB;AACtB;;AAEA,uBAAuB;;AAEvB;IACI,uBAAuB;IACvB,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,YAAY;IACZ,QAAQ;;AAEZ;;AAEA;IACI,gBAAgB;IAChB,gBAAgB;IAChB,kBAAkB;AACtB;;AAEA;IACI,wBAAwB;IACxB,aAAa;IACb,8BAA8B;IAC9B,8BAA8B;IAC9B,YAAY;AAChB;AACA;IACI,YAAY;IACZ,uBAAuB;IACvB,kBAAkB;IAClB,eAAe;IACf,gBAAgB;IAChB,cAAc;AAClB;;;AAGA;IACI,YAAY;IACZ,sBAAsB;IACtB,mBAAmB;IACnB,uBAAuB;IACvB,eAAe;AACnB;AACA;IACI,YAAY;IACZ,aAAa;IACb,qBAAqB;IACrB,mBAAmB;IACnB,mBAAmB;AACvB;AACA;IACI,kBAAkB;IAClB,WAAW;IACX,WAAW;AACf;;;;AAIA;IACI,eAAe;AACnB;;;AAGA,WAAW;;AAEX;IACI,SAAS;IACT,QAAQ;IACR,OAAO;IACP,kBAAkB;IAClB,aAAa;IACb,uBAAuB;IACvB,aAAa;IACb,yBAAyB;IACzB,kBAAkB;AACtB","sourcesContent":["body {\n    margin:0;\n}\n.content {\n    display: flex;\n    flex-direction: column;\n    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;\n}\n\n/* Header style */\n\n.header {\n    color: #F9FAF8;\n    display: flex;\n}\n.header-links {\n    font-size: 25px;\n    color: #e5e7eb;\n    align-self: center;\n}\n.header-logo {\n    background-image: url(\"../src/donburi.png\");\n    background-size: cover;\n    resize: both;\n    min-height: 130px;\n    min-width: 130px;\n}\n\n/* Common styles */\na {\n    text-decoration: none;\n    color: inherit;\n    padding-left: 20px;\n}\n\n.header {\n    display:flex;\n    background-color: #1F2937;\n    justify-content: space-between;\n    align-items:stretch;\n    padding: 5px 16% 5% 16%;\n}\n\nh2 {\n    margin: 5px;\n}\np {\n    margin: 5px;\n}\nh5 {\n    margin:0;\n}\n\n\n/* Section one styles */\n\n.section-one {\n    background-color: #1F2937;\n    padding: 5px 16% 5% 16%;\n    justify-content: space-between;\n    display: grid;\n    justify-items: center;\n    grid-template-columns: 2fr 1fr;\n    grid-auto-flow: column;\n    color: #F9FAF8;\n}\n\n.section-one-image {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    align-self: center;\n    margin-left: 30px;\n    width:50%;\n    flex: 1;\n    min-height: 130px;\n    min-width: 130px;\n    height: 100%;\n    width: 100%;\n    background-image: url(\"../src/18514993.svg\");\n    background-size:contain;\n    background-repeat: no-repeat;\n    \n}\n\n.section-one-text {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: flex-end;\n    align-self: center;\n    font-size: 48px;\n    font-weight: 800;\n    color: #F9FAF8;\n    margin-right: 30px;\n    margin-top: 0;\n    flex-shrink: 1;\n}\n.section-one-no-emphasis {\n    font-size: 18px;\n    color: #e5e7eb;\n    font-weight: normal;\n}\n\nbutton {\n    background-color: #3882f6;\n    border: none;\n    font-weight: 800;\n    color: #e5e7eb;\n    font-size: 18px;\n    border-radius: 10px;\n    padding: 10px 30px;\n}\n\n/* Section two styles */\n\n.section-two-contact {\n    padding: 5px 16% 5% 16%;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    flex-grow: 1;\n    gap: 5px;\n    \n}\n\n.map-image {\n    min-width: 150px;\n    max-width: 500px;\n    align-self: center;\n}\n\n.section-two-menu {\n    padding: 5px 16% 5px 16%;\n    display: grid;\n    grid-template-columns: 4fr 1fr;\n    justify-content: space-between;\n    flex-grow: 1;\n}\n.section-two-text {\n    display:flex;\n    justify-content: center;\n    align-self: center;\n    font-size: 36px;\n    font-weight: 800;\n    color: #1F2937;\n}\n\n\n.section {\n    display:flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    flex-wrap: wrap;\n}\n.section .image {\n    width: 150px;\n    height: 150px;\n    border-color: #3882f6;\n    border-radius: 10px;\n    border-style: solid;\n}\n.section p {\n    text-align: center;\n    width:150px;\n    color: gray;\n}\n\n\n\n.smaller-text {\n    font-size: 12px;\n}\n\n\n/* footer */\n\n.footer {\n    bottom: 0;\n    right: 0;\n    left: 0;\n    position: absolute;\n    display: flex;\n    justify-content: center;\n    color:#e5e7eb;\n    background-color: #1F2937;\n    padding: 10px 30px;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\n    margin:0;\n}\n.content {\n    display: flex;\n    flex-direction: column;\n    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;\n}\n\n/* Header style */\n\n.header {\n    color: #F9FAF8;\n    display: flex;\n}\n.header-links {\n    font-size: 25px;\n    color: #e5e7eb;\n    align-self: center;\n}\n.header-logo {\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-size: cover;\n    resize: both;\n    min-height: 130px;\n    min-width: 130px;\n}\n\n/* Common styles */\na {\n    text-decoration: none;\n    color: inherit;\n    padding-left: 20px;\n}\n\n.header {\n    display:flex;\n    background-color: #1F2937;\n    justify-content: space-between;\n    align-items:stretch;\n    padding: 5px 16% 5% 16%;\n}\n\nh2 {\n    margin: 5px;\n}\np {\n    margin: 5px;\n}\nh5 {\n    margin:0;\n}\n\n\n/* Section one styles */\n\n.section-one {\n    background-color: #1F2937;\n    padding: 5px 16% 5% 16%;\n    justify-content: space-between;\n    display: grid;\n    justify-items: center;\n    grid-template-columns: 2fr 1fr;\n    grid-auto-flow: column;\n    color: #F9FAF8;\n}\n\n.section-one-image {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    align-self: center;\n    margin-left: 30px;\n    width:50%;\n    flex: 1;\n    min-height: 130px;\n    min-width: 130px;\n    height: 100%;\n    width: 100%;\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n    background-size:contain;\n    background-repeat: no-repeat;\n    \n}\n\n.section-one-text {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: flex-end;\n    align-self: center;\n    font-size: 48px;\n    font-weight: 800;\n    color: #F9FAF8;\n    margin-right: 30px;\n    margin-top: 0;\n    flex-shrink: 1;\n}\n.section-one-no-emphasis {\n    font-size: 18px;\n    color: #e5e7eb;\n    font-weight: normal;\n}\n\nbutton {\n    background-color: #3882f6;\n    border: none;\n    font-weight: 800;\n    color: #e5e7eb;\n    font-size: 18px;\n    border-radius: 10px;\n    padding: 10px 30px;\n}\n\n/* Section two styles */\n\n.section-two-contact {\n    padding: 5px 16% 5% 16%;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    flex-grow: 1;\n    gap: 5px;\n    \n}\n\n.map-image {\n    min-width: 150px;\n    max-width: 500px;\n    align-self: center;\n}\n\n.section-two-menu {\n    padding: 5px 16% 5px 16%;\n    display: grid;\n    grid-template-columns: 4fr 1fr;\n    justify-content: space-between;\n    flex-grow: 1;\n}\n.section-two-text {\n    display:flex;\n    justify-content: center;\n    align-self: center;\n    font-size: 36px;\n    font-weight: 800;\n    color: #1F2937;\n}\n\nsection-two-text-p {\n    display:flex;\n    justify-content: center;\n    align-self: center;\n    font-size: 25px;\n    font-weight: 800;\n    color: #1F2937;\n}\n\n\n.section {\n    display:flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    flex-wrap: wrap;\n}\n.section .image {\n    width: 150px;\n    height: 150px;\n    border-color: #3882f6;\n    border-radius: 10px;\n    border-style: solid;\n}\n.section p {\n    text-align: center;\n    width:150px;\n    color: gray;\n}\n\n\n\n.smaller-text {\n    font-size: 12px;\n}\n\n/* menu styles */\n\n.menu-container {\n    display: grid; \n    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\n    justify-content: center;\n}\n\n.menu-image {\n    width: 100%;\n    height: 20vh;\n    text-align: center;\n}\n\n.section-two-home {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\n\n\n/* footer */\n\n.footer {\n    bottom: 0;\n    right: 0;\n    left: 0;\n    position: absolute;\n    display: flex;\n    justify-content: center;\n    color:#e5e7eb;\n    background-color: #1F2937;\n    padding: 10px 30px;\n}", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;IACI,QAAQ;AACZ;AACA;IACI,aAAa;IACb,sBAAsB;IACtB,wDAAwD;AAC5D;;AAEA,iBAAiB;;AAEjB;IACI,cAAc;IACd,aAAa;AACjB;AACA;IACI,eAAe;IACf,cAAc;IACd,kBAAkB;AACtB;AACA;IACI,yDAA2C;IAC3C,sBAAsB;IACtB,YAAY;IACZ,iBAAiB;IACjB,gBAAgB;AACpB;;AAEA,kBAAkB;AAClB;IACI,qBAAqB;IACrB,cAAc;IACd,kBAAkB;AACtB;;AAEA;IACI,YAAY;IACZ,yBAAyB;IACzB,8BAA8B;IAC9B,mBAAmB;IACnB,uBAAuB;AAC3B;;AAEA;IACI,WAAW;AACf;AACA;IACI,WAAW;AACf;AACA;IACI,QAAQ;AACZ;;;AAGA,uBAAuB;;AAEvB;IACI,yBAAyB;IACzB,uBAAuB;IACvB,8BAA8B;IAC9B,aAAa;IACb,qBAAqB;IACrB,8BAA8B;IAC9B,sBAAsB;IACtB,cAAc;AAClB;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,mBAAmB;IACnB,kBAAkB;IAClB,iBAAiB;IACjB,SAAS;IACT,OAAO;IACP,iBAAiB;IACjB,gBAAgB;IAChB,YAAY;IACZ,WAAW;IACX,yDAA4C;IAC5C,uBAAuB;IACvB,4BAA4B;;AAEhC;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,yBAAyB;IACzB,kBAAkB;IAClB,eAAe;IACf,gBAAgB;IAChB,cAAc;IACd,kBAAkB;IAClB,aAAa;IACb,cAAc;AAClB;AACA;IACI,eAAe;IACf,cAAc;IACd,mBAAmB;AACvB;;AAEA;IACI,yBAAyB;IACzB,YAAY;IACZ,gBAAgB;IAChB,cAAc;IACd,eAAe;IACf,mBAAmB;IACnB,kBAAkB;AACtB;;AAEA,uBAAuB;;AAEvB;IACI,uBAAuB;IACvB,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,YAAY;IACZ,QAAQ;;AAEZ;;AAEA;IACI,gBAAgB;IAChB,gBAAgB;IAChB,kBAAkB;AACtB;;AAEA;IACI,wBAAwB;IACxB,aAAa;IACb,8BAA8B;IAC9B,8BAA8B;IAC9B,YAAY;AAChB;AACA;IACI,YAAY;IACZ,uBAAuB;IACvB,kBAAkB;IAClB,eAAe;IACf,gBAAgB;IAChB,cAAc;AAClB;;AAEA;IACI,YAAY;IACZ,uBAAuB;IACvB,kBAAkB;IAClB,eAAe;IACf,gBAAgB;IAChB,cAAc;AAClB;;;AAGA;IACI,YAAY;IACZ,sBAAsB;IACtB,mBAAmB;IACnB,uBAAuB;IACvB,eAAe;AACnB;AACA;IACI,YAAY;IACZ,aAAa;IACb,qBAAqB;IACrB,mBAAmB;IACnB,mBAAmB;AACvB;AACA;IACI,kBAAkB;IAClB,WAAW;IACX,WAAW;AACf;;;;AAIA;IACI,eAAe;AACnB;;AAEA,gBAAgB;;AAEhB;IACI,aAAa;IACb,2DAA2D;IAC3D,uBAAuB;AAC3B;;AAEA;IACI,WAAW;IACX,YAAY;IACZ,kBAAkB;AACtB;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,mBAAmB;AACvB;;;;AAIA,WAAW;;AAEX;IACI,SAAS;IACT,QAAQ;IACR,OAAO;IACP,kBAAkB;IAClB,aAAa;IACb,uBAAuB;IACvB,aAAa;IACb,yBAAyB;IACzB,kBAAkB;AACtB","sourcesContent":["body {\n    margin:0;\n}\n.content {\n    display: flex;\n    flex-direction: column;\n    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;\n}\n\n/* Header style */\n\n.header {\n    color: #F9FAF8;\n    display: flex;\n}\n.header-links {\n    font-size: 25px;\n    color: #e5e7eb;\n    align-self: center;\n}\n.header-logo {\n    background-image: url(\"../src/donburi.png\");\n    background-size: cover;\n    resize: both;\n    min-height: 130px;\n    min-width: 130px;\n}\n\n/* Common styles */\na {\n    text-decoration: none;\n    color: inherit;\n    padding-left: 20px;\n}\n\n.header {\n    display:flex;\n    background-color: #1F2937;\n    justify-content: space-between;\n    align-items:stretch;\n    padding: 5px 16% 5% 16%;\n}\n\nh2 {\n    margin: 5px;\n}\np {\n    margin: 5px;\n}\nh5 {\n    margin:0;\n}\n\n\n/* Section one styles */\n\n.section-one {\n    background-color: #1F2937;\n    padding: 5px 16% 5% 16%;\n    justify-content: space-between;\n    display: grid;\n    justify-items: center;\n    grid-template-columns: 2fr 1fr;\n    grid-auto-flow: column;\n    color: #F9FAF8;\n}\n\n.section-one-image {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    align-self: center;\n    margin-left: 30px;\n    width:50%;\n    flex: 1;\n    min-height: 130px;\n    min-width: 130px;\n    height: 100%;\n    width: 100%;\n    background-image: url(\"../src/18514993.svg\");\n    background-size:contain;\n    background-repeat: no-repeat;\n    \n}\n\n.section-one-text {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: flex-end;\n    align-self: center;\n    font-size: 48px;\n    font-weight: 800;\n    color: #F9FAF8;\n    margin-right: 30px;\n    margin-top: 0;\n    flex-shrink: 1;\n}\n.section-one-no-emphasis {\n    font-size: 18px;\n    color: #e5e7eb;\n    font-weight: normal;\n}\n\nbutton {\n    background-color: #3882f6;\n    border: none;\n    font-weight: 800;\n    color: #e5e7eb;\n    font-size: 18px;\n    border-radius: 10px;\n    padding: 10px 30px;\n}\n\n/* Section two styles */\n\n.section-two-contact {\n    padding: 5px 16% 5% 16%;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    flex-grow: 1;\n    gap: 5px;\n    \n}\n\n.map-image {\n    min-width: 150px;\n    max-width: 500px;\n    align-self: center;\n}\n\n.section-two-menu {\n    padding: 5px 16% 5px 16%;\n    display: grid;\n    grid-template-columns: 4fr 1fr;\n    justify-content: space-between;\n    flex-grow: 1;\n}\n.section-two-text {\n    display:flex;\n    justify-content: center;\n    align-self: center;\n    font-size: 36px;\n    font-weight: 800;\n    color: #1F2937;\n}\n\nsection-two-text-p {\n    display:flex;\n    justify-content: center;\n    align-self: center;\n    font-size: 25px;\n    font-weight: 800;\n    color: #1F2937;\n}\n\n\n.section {\n    display:flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    flex-wrap: wrap;\n}\n.section .image {\n    width: 150px;\n    height: 150px;\n    border-color: #3882f6;\n    border-radius: 10px;\n    border-style: solid;\n}\n.section p {\n    text-align: center;\n    width:150px;\n    color: gray;\n}\n\n\n\n.smaller-text {\n    font-size: 12px;\n}\n\n/* menu styles */\n\n.menu-container {\n    display: grid; \n    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\n    justify-content: center;\n}\n\n.menu-image {\n    width: 100%;\n    height: 20vh;\n    text-align: center;\n}\n\n.section-two-home {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\n\n\n/* footer */\n\n.footer {\n    bottom: 0;\n    right: 0;\n    left: 0;\n    position: absolute;\n    display: flex;\n    justify-content: center;\n    color:#e5e7eb;\n    background-color: #1F2937;\n    padding: 10px 30px;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -561,6 +561,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./contact */ "./src/contact.js");
 /* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu.js */ "./src/menu.js");
+/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home.js */ "./src/home.js");
+
 
 
 
@@ -574,6 +576,9 @@ function btnClicked(someButton) {
     }
     else if (someButton == "menu") {
         (0,_menu_js__WEBPACK_IMPORTED_MODULE_1__.menuSection)();
+    }
+    else if (someButton == "home") {
+        (0,_home_js__WEBPACK_IMPORTED_MODULE_2__.homeSection)();
     }
     console.log(someButton);
 }
@@ -664,6 +669,40 @@ function buildHeader() {
 
 /***/ }),
 
+/***/ "./src/home.js":
+/*!*********************!*\
+  !*** ./src/home.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "homeSection": () => (/* binding */ homeSection)
+/* harmony export */ });
+let homeSection = () => {
+    let sectionTwo = document.createElement('div')
+    sectionTwo.id = "section-two";
+    sectionTwo.className = "section-two-home"
+    let homeDetails = document.createElement('h4')
+    homeDetails.className = "section-two-text"
+    homeDetails.innerHTML = "Welcome to Donburi Cafe"
+    let homeDetails1 = document.createElement('p')
+    homeDetails1.className = "section-two-text-p"
+    homeDetails1.innerHTML = "Japanese cooking can sometimes seem a little daunting, but recipes like these make whipping up a restaurant favourite a walk in the <br><br>Donburi (丼, literally translating to “bowl”) is a Japanese rice bowl dish usually made with a combination of fish, meat, vegetables or other ingredients simmered together and served over rice. Donburi is quick and easy to make, and can actually be made from almost any ingredients – including leftovers!<br><br>One of the tastiest componants of the dish has got to be the donburi sauce – with the perfect balance of sweet and umami. The ingredients of the sauce vary according to season, region, and taste – but our co-founder Ken has shared one of his favourite recipes for you to try at home.<br><br>If you dont want to make a whole donburi rice bowl, try the sauce as a dip with chicken or beef, or lightly drizzled over an omelette or rice."
+    let contactMap = document.createElement('img')
+    contactMap.className = "map-image"
+    contactMap.src = "../src/img/stacked-bowls.png"
+    let sectionOne = document.getElementsByClassName('section-one')[0];
+    sectionTwo.appendChild(homeDetails);
+    sectionTwo.appendChild(homeDetails1);
+    sectionTwo.appendChild(contactMap);
+    sectionOne.insertAdjacentElement("afterend", sectionTwo);
+}
+
+
+
+/***/ }),
+
 /***/ "./src/menu.js":
 /*!*********************!*\
   !*** ./src/menu.js ***!
@@ -675,19 +714,61 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "menuSection": () => (/* binding */ menuSection)
 /* harmony export */ });
 let menuSection = () => {
-    let sectionTwo = document.createElement('div')
-    sectionTwo.id = "section-two";
-    sectionTwo.className = "section-two-contact"
-    let contactDetails = document.createElement('h4')
-    contactDetails.className = "section-two-text"
-    contactDetails.innerHTML = "115 Mayflower Avenue<br>33432 Lexington<br>Utah"
-    let contactMap = document.createElement('img')
-    contactMap.className = "map-image"
-    contactMap.src = "../src/map.PNG"
+    let sectionMenu = document.createElement('div')
+    sectionMenu.id = "section-two";
+    sectionMenu.className = "menu-container"
+    let menuItem1 = document.createElement('div')
+    menuItem1.className = "menu-item"
+    let menuItem2 = document.createElement('div')
+    menuItem2.className = "menu-item"
+    let menuItem3 = document.createElement('div')
+    menuItem3.className = "menu-item"
+    let menuItem4 = document.createElement('div')
+    menuItem4.className = "menu-item"
+    let menuItem5 = document.createElement('div')
+    menuItem5.className = "menu-item"
+    let menuItem6 = document.createElement('div')
+    menuItem6.className = "menu-item"
+    let menuItem1Image = document.createElement('div')
+    menuItem1Image.className = "menu-image"
+    menuItem1Image.style.background = "url(../src/img/ikuradon.png) no-repeat"
+    menuItem1Image.style.backgroundSize = "contain"
+    let menuItem2Image = document.createElement('div')
+    menuItem2Image.className = "menu-image"
+    menuItem2Image.style.background = "url(../src/img/butadon.png) no-repeat"
+    menuItem2Image.style.backgroundSize = "contain"
+    let menuItem3Image = document.createElement('div')
+    menuItem3Image.className = "menu-image"
+    menuItem3Image.style.background = "url(../src/img/katsudon.png) no-repeat"
+    menuItem3Image.style.backgroundSize = "contain"
+    let menuItem4Image = document.createElement('div')
+    menuItem4Image.className = "menu-image"
+    menuItem4Image.style.background = "url(../src/img/gyudon.png) no-repeat"
+    menuItem4Image.style.backgroundSize = "contain"
+    let menuItem5Image = document.createElement('div')
+    menuItem5Image.className = "menu-image"
+    menuItem5Image.style.background = "url(../src/img/oyakodon.png) no-repeat"
+    menuItem5Image.style.backgroundSize = "contain"
+    let menuItem6Image = document.createElement('div')
+    menuItem6Image.className = "menu-image"
+    menuItem6Image.style.background = "url(../src/img/tendon.png) no-repeat"
+    menuItem6Image.style.backgroundSize = "contain"
+
+    menuItem1.appendChild(menuItem1Image);
+    menuItem2.appendChild(menuItem2Image);
+    menuItem3.appendChild(menuItem3Image);
+    menuItem4.appendChild(menuItem4Image);
+    menuItem5.appendChild(menuItem5Image);
+    menuItem6.appendChild(menuItem6Image);
+    sectionMenu.appendChild(menuItem1)
+    sectionMenu.appendChild(menuItem2)
+    sectionMenu.appendChild(menuItem3)
+    sectionMenu.appendChild(menuItem4)
+    sectionMenu.appendChild(menuItem5)
+    sectionMenu.appendChild(menuItem6)
+
     let sectionOne = document.getElementsByClassName('section-one')[0];
-    sectionTwo.appendChild(contactDetails);
-    sectionTwo.appendChild(contactMap);
-    sectionOne.insertAdjacentElement("afterend", sectionTwo);
+    sectionOne.insertAdjacentElement("afterend", sectionMenu);
 }
 
 
