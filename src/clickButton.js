@@ -1,5 +1,6 @@
 import { contactSection } from "./contact";
 import {menuSection} from "./menu.js"
+import {homeSection} from "./home.js"
 
 export default function btnClicked(someButton) {
     var sectionTwo = document.getElementById("section-two");
@@ -11,6 +12,9 @@ export default function btnClicked(someButton) {
     }
     else if (someButton == "menu") {
         menuSection();
+    }
+    else if (someButton == "home") {
+        homeSection();
     }
     console.log(someButton);
 }
