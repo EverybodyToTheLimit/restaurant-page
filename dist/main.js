@@ -679,6 +679,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "homeSection": () => (/* binding */ homeSection)
 /* harmony export */ });
+/* harmony import */ var _src_img_stacked_bowls_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/img/stacked-bowls.png */ "./src/img/stacked-bowls.png");
+
+
 let homeSection = () => {
     let sectionTwo = document.createElement('div')
     sectionTwo.id = "section-two";
@@ -691,7 +694,7 @@ let homeSection = () => {
     homeDetails1.innerHTML = "Japanese cooking can sometimes seem a little daunting, but recipes like these make whipping up a restaurant favourite a walk in the <br><br>Donburi (丼, literally translating to “bowl”) is a Japanese rice bowl dish usually made with a combination of fish, meat, vegetables or other ingredients simmered together and served over rice. Donburi is quick and easy to make, and can actually be made from almost any ingredients – including leftovers!<br><br>One of the tastiest componants of the dish has got to be the donburi sauce – with the perfect balance of sweet and umami. The ingredients of the sauce vary according to season, region, and taste – but our co-founder Ken has shared one of his favourite recipes for you to try at home.<br><br>If you dont want to make a whole donburi rice bowl, try the sauce as a dip with chicken or beef, or lightly drizzled over an omelette or rice."
     let contactMap = document.createElement('img')
     contactMap.className = "map-image"
-    contactMap.src = "../src/img/stacked-bowls.png"
+    contactMap.src = _src_img_stacked_bowls_png__WEBPACK_IMPORTED_MODULE_0__
     let sectionOne = document.getElementsByClassName('section-one')[0];
     sectionTwo.appendChild(homeDetails);
     sectionTwo.appendChild(homeDetails1);
@@ -713,7 +716,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "menuSection": () => (/* binding */ menuSection)
 /* harmony export */ });
+/* harmony import */ var _src_img_ikuradon_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/img/ikuradon.png */ "./src/img/ikuradon.png");
+/* harmony import */ var _src_img_butadon_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/img/butadon.png */ "./src/img/butadon.png");
+/* harmony import */ var _src_img_katsudon_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/img/katsudon.png */ "./src/img/katsudon.png");
+/* harmony import */ var _src_img_gyudon_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/img/gyudon.png */ "./src/img/gyudon.png");
+/* harmony import */ var _src_img_oyakodon_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../src/img/oyakodon.png */ "./src/img/oyakodon.png");
+/* harmony import */ var _src_img_tendon_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../src/img/tendon.png */ "./src/img/tendon.png");
+
+
+
+
+
+
+
 let menuSection = () => {
+
+
     let sectionMenu = document.createElement('div')
     sectionMenu.id = "section-two";
     sectionMenu.className = "menu-container"
@@ -731,27 +749,27 @@ let menuSection = () => {
     menuItem6.className = "menu-item"
     let menuItem1Image = document.createElement('div')
     menuItem1Image.className = "menu-image"
-    menuItem1Image.style.background = "url(../src/img/ikuradon.png) no-repeat"
+    menuItem1Image.style.background = "url(" + _src_img_ikuradon_png__WEBPACK_IMPORTED_MODULE_0__ + ") no-repeat"
     menuItem1Image.style.backgroundSize = "contain"
     let menuItem2Image = document.createElement('div')
     menuItem2Image.className = "menu-image"
-    menuItem2Image.style.background = "url(../src/img/butadon.png) no-repeat"
+    menuItem2Image.style.background = "url(" + _src_img_butadon_png__WEBPACK_IMPORTED_MODULE_1__ + ") no-repeat"
     menuItem2Image.style.backgroundSize = "contain"
     let menuItem3Image = document.createElement('div')
     menuItem3Image.className = "menu-image"
-    menuItem3Image.style.background = "url(../src/img/katsudon.png) no-repeat"
+    menuItem3Image.style.background = "url(" + _src_img_katsudon_png__WEBPACK_IMPORTED_MODULE_2__ + ") no-repeat"
     menuItem3Image.style.backgroundSize = "contain"
     let menuItem4Image = document.createElement('div')
     menuItem4Image.className = "menu-image"
-    menuItem4Image.style.background = "url(../src/img/gyudon.png) no-repeat"
+    menuItem4Image.style.background = "url(" + _src_img_gyudon_png__WEBPACK_IMPORTED_MODULE_3__ + ") no-repeat"
     menuItem4Image.style.backgroundSize = "contain"
     let menuItem5Image = document.createElement('div')
     menuItem5Image.className = "menu-image"
-    menuItem5Image.style.background = "url(../src/img/oyakodon.png) no-repeat"
+    menuItem5Image.style.background = "url(" + _src_img_oyakodon_png__WEBPACK_IMPORTED_MODULE_4__ + ") no-repeat"
     menuItem5Image.style.backgroundSize = "contain"
     let menuItem6Image = document.createElement('div')
     menuItem6Image.className = "menu-image"
-    menuItem6Image.style.background = "url(../src/img/tendon.png) no-repeat"
+    menuItem6Image.style.background = "url(" + _src_img_tendon_png__WEBPACK_IMPORTED_MODULE_5__ + ") no-repeat"
     menuItem6Image.style.backgroundSize = "contain"
 
     menuItem1.appendChild(menuItem1Image);
@@ -792,6 +810,76 @@ module.exports = __webpack_require__.p + "96c1f912b6051d1c1050.svg";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "e39ea7f6220c90fb5752.png";
+
+/***/ }),
+
+/***/ "./src/img/butadon.png":
+/*!*****************************!*\
+  !*** ./src/img/butadon.png ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "cf755c52b0b44b4e8e73.png";
+
+/***/ }),
+
+/***/ "./src/img/gyudon.png":
+/*!****************************!*\
+  !*** ./src/img/gyudon.png ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "19c8a3577a0e57d829cf.png";
+
+/***/ }),
+
+/***/ "./src/img/ikuradon.png":
+/*!******************************!*\
+  !*** ./src/img/ikuradon.png ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "5dbf891a7d372b5210e7.png";
+
+/***/ }),
+
+/***/ "./src/img/katsudon.png":
+/*!******************************!*\
+  !*** ./src/img/katsudon.png ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "0a850013615475435c38.png";
+
+/***/ }),
+
+/***/ "./src/img/oyakodon.png":
+/*!******************************!*\
+  !*** ./src/img/oyakodon.png ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "0856270b4b0c5e02c1d0.png";
+
+/***/ }),
+
+/***/ "./src/img/stacked-bowls.png":
+/*!***********************************!*\
+  !*** ./src/img/stacked-bowls.png ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "a4db96438dc747ffe042.png";
+
+/***/ }),
+
+/***/ "./src/img/tendon.png":
+/*!****************************!*\
+  !*** ./src/img/tendon.png ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "e3c921f58c31440afae2.png";
 
 /***/ })
 
@@ -938,6 +1026,13 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
 /* harmony import */ var _header_footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header-footer */ "./src/header-footer.js");
+/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contact */ "./src/contact.js");
+/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./menu.js */ "./src/menu.js");
+/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./home.js */ "./src/home.js");
+
+
+
+
 
 
 

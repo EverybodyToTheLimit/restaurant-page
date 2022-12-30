@@ -1,4 +1,13 @@
+import ikuradon from "../src/img/ikuradon.png";
+import butadon from "../src/img/butadon.png";
+import katsudon from "../src/img/katsudon.png";
+import gyudon from "../src/img/gyudon.png";
+import oyakodon from "../src/img/oyakodon.png";
+import tendon from "../src/img/tendon.png";
+
 let menuSection = () => {
+
+
     let sectionMenu = document.createElement('div')
     sectionMenu.id = "section-two";
     sectionMenu.className = "menu-container"
@@ -16,27 +25,27 @@ let menuSection = () => {
     menuItem6.className = "menu-item"
     let menuItem1Image = document.createElement('div')
     menuItem1Image.className = "menu-image"
-    menuItem1Image.style.background = "url(../src/img/ikuradon.png) no-repeat"
+    menuItem1Image.style.background = "url(" + ikuradon + ") no-repeat"
     menuItem1Image.style.backgroundSize = "contain"
     let menuItem2Image = document.createElement('div')
     menuItem2Image.className = "menu-image"
-    menuItem2Image.style.background = "url(../src/img/butadon.png) no-repeat"
+    menuItem2Image.style.background = "url(" + butadon + ") no-repeat"
     menuItem2Image.style.backgroundSize = "contain"
     let menuItem3Image = document.createElement('div')
     menuItem3Image.className = "menu-image"
-    menuItem3Image.style.background = "url(../src/img/katsudon.png) no-repeat"
+    menuItem3Image.style.background = "url(" + katsudon + ") no-repeat"
     menuItem3Image.style.backgroundSize = "contain"
     let menuItem4Image = document.createElement('div')
     menuItem4Image.className = "menu-image"
-    menuItem4Image.style.background = "url(../src/img/gyudon.png) no-repeat"
+    menuItem4Image.style.background = "url(" + gyudon + ") no-repeat"
     menuItem4Image.style.backgroundSize = "contain"
     let menuItem5Image = document.createElement('div')
     menuItem5Image.className = "menu-image"
-    menuItem5Image.style.background = "url(../src/img/oyakodon.png) no-repeat"
+    menuItem5Image.style.background = "url(" + oyakodon + ") no-repeat"
     menuItem5Image.style.backgroundSize = "contain"
     let menuItem6Image = document.createElement('div')
     menuItem6Image.className = "menu-image"
-    menuItem6Image.style.background = "url(../src/img/tendon.png) no-repeat"
+    menuItem6Image.style.background = "url(" + tendon + ") no-repeat"
     menuItem6Image.style.backgroundSize = "contain"
 
     menuItem1.appendChild(menuItem1Image);
