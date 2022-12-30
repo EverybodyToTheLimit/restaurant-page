@@ -1,4 +1,4 @@
-import mapImage from "../src/map.png"
+import mapImage from "../src/map.PNG"
 
 let contactSection = () => {
     let sectionTwo = document.createElement('div')

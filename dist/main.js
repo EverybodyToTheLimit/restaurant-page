@@ -595,7 +595,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "contactSection": () => (/* binding */ contactSection)
 /* harmony export */ });
-Object(function webpackMissingModule() { var e = new Error("Cannot find module '../src/map.png'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+/* harmony import */ var _src_map_PNG__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/map.PNG */ "./src/map.PNG");
 
 
 let contactSection = () => {
@@ -607,7 +607,7 @@ let contactSection = () => {
     contactDetails.innerHTML = "115 Mayflower Avenue<br>33432 Lexington<br>Utah"
     let contactMap = document.createElement('img')
     contactMap.className = "map-image"
-    contactMap.src = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../src/map.png'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    contactMap.src = _src_map_PNG__WEBPACK_IMPORTED_MODULE_0__;
     let sectionOne = document.getElementsByClassName('section-one')[0];
     sectionTwo.appendChild(contactDetails);
     sectionTwo.appendChild(contactMap);
@@ -883,6 +883,16 @@ module.exports = __webpack_require__.p + "a4db96438dc747ffe042.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "e3c921f58c31440afae2.png";
+
+/***/ }),
+
+/***/ "./src/map.PNG":
+/*!*********************!*\
+  !*** ./src/map.PNG ***!
+  \*********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "61cf3b9ba359f88f66bf.PNG";
 
 /***/ })
 
