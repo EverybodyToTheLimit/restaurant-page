@@ -1,3 +1,5 @@
+import mapImage from "../src/map.png"
+
 let contactSection = () => {
     let sectionTwo = document.createElement('div')
     sectionTwo.id = "section-two";
@@ -7,7 +9,7 @@ let contactSection = () => {
     contactDetails.innerHTML = "115 Mayflower Avenue<br>33432 Lexington<br>Utah"
     let contactMap = document.createElement('img')
     contactMap.className = "map-image"
-    contactMap.src = "../src/map.PNG"
+    contactMap.src = mapImage;
     let sectionOne = document.getElementsByClassName('section-one')[0];
     sectionTwo.appendChild(contactDetails);
     sectionTwo.appendChild(contactMap);

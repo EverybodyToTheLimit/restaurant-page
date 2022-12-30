@@ -595,6 +595,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "contactSection": () => (/* binding */ contactSection)
 /* harmony export */ });
+Object(function webpackMissingModule() { var e = new Error("Cannot find module '../src/map.png'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+
+
 let contactSection = () => {
     let sectionTwo = document.createElement('div')
     sectionTwo.id = "section-two";
@@ -604,7 +607,7 @@ let contactSection = () => {
     contactDetails.innerHTML = "115 Mayflower Avenue<br>33432 Lexington<br>Utah"
     let contactMap = document.createElement('img')
     contactMap.className = "map-image"
-    contactMap.src = "../src/map.PNG"
+    contactMap.src = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../src/map.png'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
     let sectionOne = document.getElementsByClassName('section-one')[0];
     sectionTwo.appendChild(contactDetails);
     sectionTwo.appendChild(contactMap);
